@@ -1,4 +1,4 @@
-   import React from 'react';
+  //  import React from 'react';
    import Header from './components/Header';
 
    function App() {
@@ -9,7 +9,7 @@
 
         </main>
         <footer>
-          
+
         </footer>
        </div>
      );
