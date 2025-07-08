@@ -3,11 +3,14 @@ import "./Header.css";
 const Header = ()=> {
     return (
         <header className="header">
-            <div className="header__container">
-                <h1 className="header__title">Ibrahim Ibrahim</h1>
-                <p className="header__subtitle">Web Developer</p>
-            </div>
+            <section className="header__container">
+                <h1>Ibrahim Ibrahim Babatunde</h1>
+                <p>Backend Software Enginner / Tech Enthusiast</p>
+                
 
+            </section>
         </header>
-    )
+    );
 }
+
+export default Header;
