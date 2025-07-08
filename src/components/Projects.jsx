@@ -2,7 +2,7 @@ const Projects = ()=> {
     return (
         <section>
             <h2>Projects</h2>
-            <ul>
+            <ul style={{ listStyleType: 'none', padding: 0 }}>
                 <li>
                     <strong>project-link</strong> - E-commerce website / App
                 </li>
