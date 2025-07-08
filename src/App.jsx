@@ -11,9 +11,7 @@ import Projects from './components/Projects';
           <About />
           <Projects />
         </main>
-        <footer>
-
-        </footer>
+        <Footer />
        </div>
      );
    }
