@@ -11,10 +11,6 @@ const Home = () => {
         <div className="overlay"></div>
         <Header />
         <main>
-            <About />
-            <Skills />
-            <Projects />
-            <Contact />
         </main>
         <Footer />
         </div>
