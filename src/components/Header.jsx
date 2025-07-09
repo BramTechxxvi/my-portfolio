@@ -5,9 +5,9 @@ const Header = ()=> {
         <header className="header">
             <section className="headerContainer">
                 <h1>Ibrahim Ibrahim Babatunde</h1>
-                <p>Backend Software Engineer / Tech Enthusiast</p>
+                <p>Back-End Software Engineer / Tech Enthusiast</p>
             </section>
-            <img src="" alt="Ibrahim" className="profile-image" />
+            <img src=".\public\android-chrome-192x192.png" alt="Ibrahim" className="profile-image" />
         </header>
     );
 }
