@@ -8,7 +8,8 @@
     flex: 1;
     margin-top: 50px;
     padding: 0 100px;
-
+    /* Remove solid blue, use transparent for gradient to show */
+    background-color: transparent;
 }
 .mainContainer h2 {
     font-family: Arial, Helvetica, sans-serif;
