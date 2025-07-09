@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+
 const Home = () => {
     return (
         <div className="App">
@@ -9,6 +11,9 @@ const Home = () => {
             <Projects />
             <Contact />
         </main>
+        <Footer />
         </div>
     );
     }
+
+    export default Home;
