@@ -4,8 +4,15 @@ const Header = ()=> {
     return (
         <header className="header">
             <section className="headerContainer">
-                <h6>Open to work</h6>
-                <button>Download CV</button>
+                <div className="status">
+                    <span className="onlineDot"></span>
+                    <h5>Open to work</h5>
+                </div>
+
+                <button className="downloadBtn">
+                    <span className="downloadBtn-text">Download CV</span>
+                    <span className="downloadBtn-icon"></span>
+                </button>
             </section>
         </header>
     );
