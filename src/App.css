@@ -8,8 +8,31 @@ body {
 .App {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-size: cover;
 }
+
+
+/* Optional: Add a color overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity */
+  z-index: 1; /* Ensure overlay is above the background */
+}
+
+.header {
+  position: relative; /* Position relative for overlay */
+  z-index: 2; /* Ensure header content is above overlay */
+}
+
 
 .main {
     flex: 1;
