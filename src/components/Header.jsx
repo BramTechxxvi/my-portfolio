@@ -10,9 +10,11 @@ const Header = ()=> {
                     <h5>Open to work</h5>
                 </div>
 
-                <button className="downloadBtn">
-                    <span className="downloadBtn-text">Download CV</span>
-                    <span className="downloadBtn-icon"><FiDownload /></span>
+                <button className="downloadBtn" onClick={() => window.open("")}>
+                    <div className="downloadBtn-content">
+                        <span className="downloadBtn-text">Download CV</span>
+                        <span className="downloadBtn-icon"><FiDownload /></span>
+                    </div>
                 </button>
             </section>
         </header>

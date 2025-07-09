@@ -3,20 +3,24 @@
     background-color: #f5f5f5;
     display: flex;
     justify-content: center;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .headerContainer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 900px;
+    padding: 0 70px;
     align-items: center;
 }
 
 .status {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 }
 
 .onlineDot {
@@ -24,59 +28,77 @@
     height: 10px;
     border-radius: 50px;
     background-color: #00c853;
-    animation: pulse 1.5s ease-in-out infinite;
+    animation: glow 1.5s ease-in-out infinite;
 }
 
 @keyframes glow {
     0% {
         box-shadow: 0 0 4px #00c853;
+        transform: scale(1);
+        opacity: 1.5;
     }
     50% {
         box-shadow: 0 0 12px #00c853;
+        transform: scale(1.4);
+        opacity: 1;
         }
     100% {
         box-shadow: 0 0 4px #00c853;
+        transform: scale(1);
+        opacity: 0.7;
     }
-    
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        opacity: 0.7;
-    }
-    50% {
-        transform: scale(1.4);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0.7;
-    }
-}
 
 .downloadBtn {
     position: relative;
     padding: 0.6rem 1rem;
-    color: orange;
+    background-color: orange;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     transition: all 0.3s ease;
+    min-width: 140px;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.downloadBtn-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.downloadBtn-icon,
+.downloadBtn-text {
+    transition: opacity 0.3s ease;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .downloadBtn-icon {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
 }
 
-.downloadBtn:hover .downloadBtn-icon{
-    display: inline;
+.downloadBtn:hover .downloadBtn-icon {
+    opacity: 1;
+    visibility: visible;
 }
 
-.downloadBtn:hover .dowloadBtn-text{
-    display: none;
+.downloadBtn:hover .downloadBtn-text {
+    opacity: 0;
+    visibility: hidden;
 }
