@@ -9,10 +9,8 @@ import Contact from './components/Contact';
      return (
        <div className="App">
         <div className="overlay"></div>
-        <Header />
         <main>
-          <About />
-          <Projects />
+          <Home />
           <Contact />
         </main>
         <Footer />
