@@ -1,18 +1,7 @@
-.header {
-    padding: 0 10px;
-    display: flex;
-    color: black;
-    background-color: red;
-    font-weight: 700;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .headerContainer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 90px;
     align-items: center;
 }
 
@@ -20,6 +9,13 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.status h5 {
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .onlineDot {
@@ -32,27 +28,23 @@
 
 @keyframes glow {
     0% {
-        box-shadow: 0 0 4px #00c853;
         transform: scale(1);
         opacity: 1.5;
     }
     50% {
-        box-shadow: 0 0 12px #00c853;
         transform: scale(1.4);
         opacity: 1;
         }
     100% {
-        box-shadow: 0 0 4px #00c853;
         transform: scale(1);
         opacity: 0.7;
     }
 }
 
-
 .downloadBtn {
     position: relative;
     padding: 0.6rem 1rem;
-    background-color: orange;
+    background-color: #679DFD;
     border: none;
     border-radius: 6px;
     cursor: pointer;
