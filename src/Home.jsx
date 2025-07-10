@@ -1,5 +1,10 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { FiMail } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+import { FiMapPin } from "react-icons/fi";
 import "./Home.css"
 
 const Home = () => {
@@ -13,10 +18,11 @@ const Home = () => {
                         <h1>Ibrahim Ibrahim</h1>
                     </div>
                     <div className="info">
-                        <h6></h6>
-                        <h6></h6>
-                        <h6></h6>
-                        <h6></h6>
+                        <h4 ><FiMail />  bramtechxxvi@gmail.com</h4>
+                        <h6><FiPhone/>  +234-701-717-5172</h6>
+                        <h6><FiLinkedin />  my-linkedIn</h6>
+                        <h6><FiMapPin />   Lagos, Nigeria</h6>
+                        <h4><FiGithub />   my-gitHubLink</h4>
 
                     </div>
 
