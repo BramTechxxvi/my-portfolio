@@ -7,8 +7,13 @@ const Home = () => {
         <div className="Home">
             <Header />
             <main className="mainContainer">
-                <h2>BACK-END/SOFTWARE ENGINEER</h2>
-                <h1>Ibrahim Ibrahim</h1>
+                <div className="contentWrapper">
+                    <h2>BACK-END/SOFTWARE ENGINEER</h2>
+                    <h1>Ibrahim Ibrahim</h1>
+                </div>
+                <div className="imageW">
+                    <img src="/that.png" alt="profile-image" />
+                </div>
             </main>
             <Footer />
         </div>
