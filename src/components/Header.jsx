@@ -15,8 +15,6 @@ const Header = () => {
                     <span className="downloadBtn-icon"><FiDownload /></span>
                 </div>
             </button>
-
-
         </div>
     </header>
   )
