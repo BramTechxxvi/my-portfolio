@@ -8,10 +8,20 @@ const Home = () => {
             <Header />
             <main className="mainContainer">
                 <div className="contentWrapper">
-                    <h2>BACK-END/SOFTWARE ENGINEER</h2>
-                    <h1>Ibrahim Ibrahim</h1>
+                    <div className="name">
+                        <h2>BACK-END/SOFTWARE ENGINEER</h2>
+                        <h1>Ibrahim Ibrahim</h1>
+                    </div>
+                    <div className="info">
+                        <h6></h6>
+                        <h6></h6>
+                        <h6></h6>
+                        <h6></h6>
+
+                    </div>
+
                 </div>
-                <div className="imageW">
+                <div className="imageWrapper">
                     <img src="/that.png" alt="profile-image" />
                 </div>
             </main>
