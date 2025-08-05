@@ -23,7 +23,7 @@
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(2);
     opacity: 0;
   }
 }
