@@ -31,8 +31,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="see">
-                    <h4><a href="">Home</a></h4>
-                    
+                                        
                 </div>
             </main>
             <Footer />
