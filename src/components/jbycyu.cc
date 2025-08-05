@@ -1,62 +1,66 @@
+import { useEffect, useState } from "react";
+import "../styles/HeroSection.css"; // Adjust path based on your structure
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sosososo Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .cursor::after {
-      content: '|';
-      animation: blink 1s step-start infinite;
-    }
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-  </style>
-</head>
-<body class="bg-gray-900 text-white font-sans min-h-screen flex items-center justify-center">
+const HeroSection = () => {
+  const roles = ["Frontend Engineer", "Software Engineer"];
+  const [roleIndex, setRoleIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [text, setText] = useState("");
 
-  <section class="text-center px-4">
-    <h1 class="text-4xl sm:text-5xl font-bold mb-4">
-      👋 Hello, I'm <span class="text-amber-400">sosososo</span>
-    </h1>
-    <p class="text-xl sm:text-2xl text-gray-300">
-      💻 I'm a <span id="typed-text" class="text-white font-semibold cursor"></span>
-    </p>
-  </section>
+  useEffect(() => {
+    const currentRole = roles[roleIndex];
+    const visibleText = currentRole.substring(0, charIndex);
+    setText(visibleText);
 
-  <script>
-    const roles = ["Frontend Engineer", "Software Engineer"];
-    const typedText = document.getElementById("typed-text");
+    let typingSpeed = isDeleting ? 60 : 100;
 
-    let roleIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
-
-    function typeEffect() {
-      const currentRole = roles[roleIndex];
-      const visibleText = currentRole.substring(0, charIndex);
-      typedText.textContent = visibleText;
-
+    const timeout = setTimeout(() => {
       if (!isDeleting && charIndex < currentRole.length) {
-        charIndex++;
-        setTimeout(typeEffect, 100);
+        setCharIndex((prev) => prev + 1);
       } else if (isDeleting && charIndex > 0) {
-        charIndex--;
-        setTimeout(typeEffect, 60);
+        setCharIndex((prev) => prev - 1);
       } else {
-        isDeleting = !isDeleting;
         if (!isDeleting) {
-          roleIndex = (roleIndex + 1) % roles.length;
+          setIsDeleting(true);
+        } else {
+          setIsDeleting(false);
+          setRoleIndex((prev) => (prev + 1) % roles.length);
         }
-        setTimeout(typeEffect, 1000);
       }
-    }
+    }, typingSpeed);
 
-    typeEffect();
-  </script>
+    return () => clearTimeout(timeout);
+  }, [charIndex, isDeleting, roleIndex]);
 
-</body>
-</html>
+  return (
+    <section className="text-center px-4 min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <div>
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+          👋 Hello, I'm <span className="text-amber-400">sosososo</span>
+        </h1>
+        <p className="text-xl sm:text-2xl text-gray-300">
+          💻 I'm a{" "}
+          <span className="text-white font-semibold cursor-effect">
+            {text}
+          </span>
+        </p>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
+
+
+
+.cursor-effect::after {
+  content: '|';
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
