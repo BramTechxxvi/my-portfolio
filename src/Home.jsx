@@ -13,9 +13,7 @@ const Home = () => {
         <div className="Home">
             <Header />
             <main className="mainWrapper">
-                <div className="mainContainer">
-                    <HeroSection />
-                </div>
+                <HeroSection />
             </main>
             <Footer />
         </div>
