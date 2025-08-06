@@ -13,3 +13,14 @@ export default {
   },
   plugins: [],
 }
+
+// @layer utilities {
+//   @keyframes blink {
+//     0%, 100% { opacity: 1; }
+//     50% { opacity: 0; }
+//   }
+
+//   .after\\:animate-blink::after {
+//     animation: blink 1s step-start infinite;
+//   }
+// }

@@ -29,10 +29,23 @@ const HeroSection = () => {
                 }
             }
         }, typingSpeed);
+
         return () => clearTimeout(timeout);
     }, [charIndex, isDeleting, roleIndex]);
 
   return (
-    <div>HeroSection</div>
-  )
-}
+    <section className="text-center bg-gray-900 text-white px-4 min-h-screen flex items-center justify-center">
+        <div>
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+                Hello👋, I'm Ibrahim <span className="text-amber-400">Ibrahim Babatunde</span>
+            </h1>
+            <p className="text-xl sm:text-2xl text-gray-300">
+                💻 I'm a{" "}
+                <span className="text-white font-semibold cursor-effect">{text}</span>
+            </p>
+        </div>
+    </section>
+  );
+};
+
+export default HeroSection;
