@@ -15,19 +15,6 @@ const Home = () => {
             <main className="mainWrapper">
                 <div className="mainContainer">
                     <HeroSection />
-                    <div className="contentWrapper">
-                        <div className="name">
-                            <h2>BACK-END/SOFTWARE ENGINEER</h2>
-                            <h1>Ibrahim Ibrahim</h1>
-                        </div>
-                        
-                    </div>
-                    <div className="imageWrapper">
-                        <img src="/that.png" alt="profile-image" />
-                    </div>
-                </div>
-                <div className="see">
-                                        
                 </div>
             </main>
             <Footer />
