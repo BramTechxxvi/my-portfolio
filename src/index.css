@@ -1,5 +1,3 @@
-body {
-    min-height: 100vh;
-    background: linear-gradient(90deg, #29292b 0%, rgb(8, 2, 97) 100%);
-    padding: 15px 120px 0px 120px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
