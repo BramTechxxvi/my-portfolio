@@ -9,7 +9,7 @@ const HeroSection = () => {
 
     useEffect(()=> {
         const currentRole = roles[roleIndex];
-        const visibleText = currentRole.subString(0, charIndex)
+        const visibleText = currentRole.substring(0, charIndex)
         setText(visibleText)
 
         let typingSpeed = isDeleting ? 60 : 100;
