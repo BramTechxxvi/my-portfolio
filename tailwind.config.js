@@ -1,3 +1,5 @@
+import defaultTheme from 'tailwind/defaultTheme';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,18 +11,12 @@ export default {
     "./src/assets/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: "360px",
+        ...defaultTheme.screens,
+      }
+    },
   },
   plugins: [],
 }
-
-// @layer utilities {
-//   @keyframes blink {
-//     0%, 100% { opacity: 1; }
-//     50% { opacity: 0; }
-//   }
-
-//   .after\\:animate-blink::after {
-//     animation: blink 1s step-start infinite;
-//   }
-// }
