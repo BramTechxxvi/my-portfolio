@@ -20,13 +20,7 @@ const Home = () => {
                             <h2>BACK-END/SOFTWARE ENGINEER</h2>
                             <h1>Ibrahim Ibrahim</h1>
                         </div>
-                        <div className="info">
-                            <h4 ><FiMail />  bramtechxxvi@gmail.com</h4>
-                            <h4><FiPhone/>  +234-701-717-5172</h4>
-                            <h4><FiLinkedin />  my-linkedIn</h4>
-                            <h4><FiMapPin />   Lagos, Nigeria</h4>
-                            <h4><FiGithub />   my-gitHubLink</h4>
-                        </div>
+                        
                     </div>
                     <div className="imageWrapper">
                         <img src="/that.png" alt="profile-image" />
