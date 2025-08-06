@@ -6,6 +6,7 @@ import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import { FiMapPin } from "react-icons/fi";
 import "./Home.css"
+import HeroSection from "./components/HeroSection";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Header />
             <main className="mainWrapper">
                 <div className="mainContainer">
+                    <HeroSection />
                     <div className="contentWrapper">
                         <div className="name">
                             <h2>BACK-END/SOFTWARE ENGINEER</h2>
