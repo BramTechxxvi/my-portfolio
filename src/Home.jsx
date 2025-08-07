@@ -20,5 +20,28 @@ const Home = () => {
     );
 }
 
-
 export default Home;
+
+* Learn how to build efficient, scalable software programs
+
+* To enhance my problem solving and thinking skills
+
+* Gain practical skills in programming and start my journey toward a career in software engineering, cybersecurity.
+
+
+
+* I’ll understand code better and solve problems more easily
+
+* I’ll be able to build projects I’m proud of
+
+* I’ll be in a position to support and mentor beginners in tech
+
+
+
+* Working on projects that'll increase my understanding,  debugging skills, experience with stacks for any project
+
+* Studying system design and scalable application architecture
+
+* Staying updated with modern tools and frameworks
+
+* Taking internships to apply skills in professional settings
