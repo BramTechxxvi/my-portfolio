@@ -38,7 +38,7 @@
     border-radius: 50%;
     opacity: .8;
     transform: translate(-50%, -50%);
-    animation: pulse 4s ease-out infinite;
+    animation: pulse 3s ease-in-out infinite;
     z-index: -1;
 }
 
