@@ -1,6 +1,6 @@
 import { FiDownload } from "react-icons/fi";
 
-const Header = () => {
+const Header = ({ isHome }) => {
   return (
     <header className={`w-full px-5 py-3 flex justify-between items-center
     ${isHome ? `bg-gray-900 text white` : `bg-white text-black`}`}>
