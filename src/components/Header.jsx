@@ -3,7 +3,7 @@ import { FiDownload } from "react-icons/fi";
 const Header = ({ isHome }) => {
   return (
     <header className={`w-full px-5 py-3 flex justify-between items-center
-    ${isHome ? `bg-gray-900 text white` : `bg-white text-black`}`}>
+    ${isHome ? `bg-gray-900 text-white` : `bg-white text-black`}`}>
       <div className="flex items-center gap-2">
         <span className="relative w-3 h-3 rounded-full bg-green-600 animate-pulse"></span>
         <h5 className="text-black font-bold text-lg font-sans">Open to work</h5>
