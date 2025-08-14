@@ -1,6 +1,8 @@
-const Footer = ()=> {
+const Footer = ({ isHome })=> {
     return (
-        <footer style={{ textAlign: 'center', padding: "1rem", color: "#e0e0e0" }}>
+        <footer 
+        className={`${ isHome? `bg-gray-900 text-gray-200` : `bg-gray-100 text-black`} text-center py-4`}
+        >
             <p>&copy; {new Date().getFullYear()} Ibrahim Ibrahim</p>
         </footer>
     );
