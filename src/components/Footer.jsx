@@ -7,17 +7,3 @@ const Footer = ()=> {
 }
 
 export default Footer;
-
-
-            if (!isDeleting) {
-                setTimeout(() => setIsDeleting(true), pauseBeforeDelete);
-            } else {
-                // Done deleting, move to next role
-                setIsDeleting(false);
-                setRoleIndex((prev) => (prev + 1) % roles.length);
-            }
-        }
-    }, typingSpeed);
-
-    return () => clearTimeout(timeout);
-}, [charIndex, isDeleting, roleIndex]);
