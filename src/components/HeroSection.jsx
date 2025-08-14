@@ -13,6 +13,7 @@ const HeroSection = () => {
         setText(visibleText)
 
         let typingSpeed = isDeleting ? 60 : 100;
+        let pauseBeforeDelete =1000;
 
         const timeout = setTimeout(()=> {
             if(!isDeleting && charIndex  < currentRole.length) {
