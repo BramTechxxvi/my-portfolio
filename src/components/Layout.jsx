@@ -12,6 +12,9 @@ const Layout = () => {
     <main>
         <Outlet />
     </main>
+    <Footer isHome={isHome} />
     </>
   )
 }
+
+export default Layout;
