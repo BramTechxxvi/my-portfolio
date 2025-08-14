@@ -20,10 +20,9 @@ const HeroSection = () => {
                 setCharIndex((prev)=> prev +1);
             } else if (isDeleting && charIndex > 0) {
                 setCharIndex((prev)=> prev - 1);
-                setRoleIndex((prev)=> (prev + 1) % roles.length);
             } else {
                 if(!isDeleting) {
-                    setIsDeleting(true);
+                    setTimeout(() => setIsDeleting(true), pauseBeforeDelete);
                 } else {
                     setIsDeleting(false);
                     setRoleIndex((prev) => (prev + 1) % roles.length);
