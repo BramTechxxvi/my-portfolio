@@ -78,35 +78,4 @@ function App() {
   );
 }
 
-export default App;
-
-
-
-
-import HeroSection from './components/HeroSection';
-
-const Home = () => {
-  return (
-    <div className="mainWrapper">
-      <HeroSection />
-    </div>
-  );
-};
-
-export default Home;
-
-
-import HeroSection from './components/HeroSection';
-
-const Home = () => {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-1">
-        <HeroSection />
-      </main>
-    </div>
-  );
-};
-
-export default Home;
-
+export default App
