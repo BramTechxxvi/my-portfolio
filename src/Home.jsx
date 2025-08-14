@@ -1,10 +1,9 @@
-import "./Home.css"
 import HeroSection from "./components/HeroSection";
 
 const Home = () => {
     return (
-        <div className="Home">
-            <main className="mainWrapper">
+        <div className="flex flex-col min-h-screen">
+            <main className="flex-1">
                 <HeroSection />
             </main>
         </div>
