@@ -6,7 +6,7 @@ const Header = ({ isHome }) => {
     ${isHome ? `bg-gray-900 text-white` : `bg-white text-black`}`}>
       <div className="flex items-center gap-2">
         <span className="relative w-3 h-3 rounded-full bg-green-600 animate-pulse"></span>
-        <h5 className="text-black font-bold text-lg font-sans">Open to work</h5>
+        <h5 className="font-bold text-lg font-sans">Open to work</h5>
       </div>
       <button className="relative px-4 py-2 bg-blue-400 rounded-md text-black font-semibold text-base font-sans overflow-hidden flex items-center justify-center gap-2 group min-w-[140px]">
         <span className="group-hover:opacity-0 transition-opacity duration-300">Download CV</span>

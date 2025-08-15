@@ -1,0 +1,45 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    flex: 1;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainer h2 {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mainContainer h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0px;
+    column-gap: 100px;
+}
+
+.info h4, info div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    color: #333;
+    text-emphasis: none;
+}
+
+.info h4:hover {
+  color: #679DFD;
+}
+
