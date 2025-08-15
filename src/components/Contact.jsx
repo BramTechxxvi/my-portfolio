@@ -11,6 +11,12 @@ const Contact = ()=> {
             <FiMail className='text-blue-500 text-xl' />
             <a href="mailto:bramtechxxvi@gmail.com" className='hove:underine'>bramtechxxvi@gmail.com</a> 
           </div>
+
+          <div className='flex items-center gap-4 text-lg'>
+            <FiPhone className='text-green-500 text-xl' />
+            <a href="tel:+2347015366234" className='hover:underline'>+234-701-536-6234
+            </a>
+          </div>
         </div>
 
       </div>
