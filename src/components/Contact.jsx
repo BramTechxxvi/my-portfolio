@@ -2,8 +2,12 @@ import { FiMail, FiPhone, FiLinkedin, FiMapPin, FiGithub } from 'react-icons/fi'
 
 const Contact = ()=> {
   return (
-    <>
-    <div>Contact</div>
+    <section className="bg-white text-gray-900 py-16 px-4 md:px-12 lg:px-24">
+    <div className='max-w-4xl mx-auto'>
+      <h2 className='text-3xl sm:text-4xl font-bold mb-8 text-center'>Contact Me</h2>
+      
+      </div>
+
     <div className="info">
         <h4><FiMail />  bramtechxxvi@gmail.com </h4>
         <h4><FiPhone/>  +234-701-536-6234</h4>
@@ -11,7 +15,7 @@ const Contact = ()=> {
         <h4><FiMapPin />   Lagos, Nigeria</h4>
         <h4><FiGithub />   https://github.com/BramTechxxvi </h4>
     </div>
-    </>
+    </ section>
   )
 }
 
