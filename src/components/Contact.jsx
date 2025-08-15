@@ -20,7 +20,8 @@ const Contact = ()=> {
           <div className='flex items-center gap-4 text-lg'>
             <FiLinkedin className='text-blue-700 text-xl' />
             <a href="" target="_blank" rel='noopener noreferrer' className='hover:underline'>
-              my-linkedin</a>
+              my-linkedin
+            </a>
           </div>
 
           <div className='flex items-center gap-4 text-lg'>
@@ -31,19 +32,11 @@ const Contact = ()=> {
           <div className='flex items-center gap-4 text-lg'>
             <FiGithub className='text-black- text-xl' />
             <a href="https://github.com/BramTechxxvi" target="_blank" rel='noopener noreferrer' className='hover:underline'>
-              my-linkedin</a>
+              github.com/BramTechxxvi
+            </a>
           </div>
         </div>
-
       </div>
-
-        <div className="info">
-        <h4> bramtechxxvi@gmail.com </h4>
-        <h4><FiPhone/>  +234-701-536-6234</h4>
-        <h4><FiLinkedin />  my-linkedIn</h4>
-        <h4><FiMapPin />   Lagos, Nigeria</h4>
-        <h4><FiGithub />   https://github.com/BramTechxxvi </h4>
-        </div>
     </section>
   )
 }
