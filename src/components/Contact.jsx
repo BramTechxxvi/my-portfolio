@@ -14,8 +14,24 @@ const Contact = ()=> {
 
           <div className='flex items-center gap-4 text-lg'>
             <FiPhone className='text-green-500 text-xl' />
-            <a href="tel:+2347015366234" className='hover:underline'>+234-701-536-6234
-            </a>
+            <a href="tel:+2347015366234" className='hover:underline'>+234-701-536-6234</a>
+          </div>
+
+          <div className='flex items-center gap-4 text-lg'>
+            <FiLinkedin className='text-blue-700 text-xl' />
+            <a href="" target="_blank" rel='noopener noreferrer' className='hover:underline'>
+              my-linkedin</a>
+          </div>
+
+          <div className='flex items-center gap-4 text-lg'>
+            <FiMapPin className='text-red-500 text-xl' />
+            <span>Lagos, Nigeria</span>
+          </div>
+
+          <div className='flex items-center gap-4 text-lg'>
+            <FiGithub className='text-black- text-xl' />
+            <a href="https://github.com/BramTechxxvi" target="_blank" rel='noopener noreferrer' className='hover:underline'>
+              my-linkedin</a>
           </div>
         </div>
 
