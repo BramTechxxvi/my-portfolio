@@ -9,6 +9,7 @@ import './index.css'
         <Routes>
           <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route index element={ } />
           </Route>
         </Routes>
       </Router>
