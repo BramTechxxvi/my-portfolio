@@ -10,7 +10,7 @@ import Contact from './components/Contact.jsx';
         <Routes>
           <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route index element={<Contact /> } />
+          <Route path="/contact" index element={<Contact /> } />
           </Route>
         </Routes>
       </Router>
