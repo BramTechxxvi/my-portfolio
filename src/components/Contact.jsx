@@ -1,4 +1,4 @@
-import { FiMail, FiPhone, FiLinkedin, FiMapPin, FiGithub } from 'react/icons/fi';
+import { FiMail, FiPhone, FiLinkedin, FiMapPin, FiGithub } from 'react-icons/fi';
 
 const Contact = ()=> {
   return (
