@@ -41,7 +41,7 @@ const HeroSection = () => {
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300">
                 💻 I'm a{" "}
-                <span className="text-white font-semibold cursor-effect">{text}</span>
+                <span className="text-blue font-semibold cursor-effect">{text}</span>
             </p>
         </div>
     </section>
