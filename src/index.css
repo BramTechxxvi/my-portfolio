@@ -10,7 +10,9 @@
     height: 1.2em;
     background: white;
     animation: blink 1s steps(2, start) infinite;
-    margin-left: 2px;
+    margin-left: 
+    \
+    2px;
   }
 
   @keyframes blink {
