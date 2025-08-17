@@ -9,7 +9,7 @@ const Contact = ()=> {
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-16'>
           <div className='flex items-center gap-4 text-lg'>
             <FiMail className='text-blue-500 text-xl' />
-            <a href="mailto:bramtechxxvi@gmail.com" className='hove:underine'>bramtechxxvi@gmail.com</a> 
+            <a href="mailto:bramtechxxvi@gmail.com" className='hover:underine'>bramtechxxvi@gmail.com</a> 
           </div>
 
           <div className='flex items-center gap-4 text-lg'>
@@ -30,7 +30,7 @@ const Contact = ()=> {
           </div>
 
           <div className='flex items-center gap-4 text-lg'>
-            <FiGithub className='text-black- text-xl' />
+            <FiGithub className='text-black text-xl' />
             <a href="https://github.com/BramTechxxvi" target="_blank" rel='noopener noreferrer' className='hover:underline'>
               github.com/BramTechxxvi
             </a>
