@@ -6,10 +6,10 @@ const BottomNav = () => {
 
     const navItems =[
         { to: "/", icon: <FiHome />, label: "Home" },
-        { to: "/", icon: <FiHome />, label: "About" },
-        { to: "/", icon: <FiHome />, label: "Projects" },
-        { to: "/", icon: <FiHome />, label: "Skills" },
-        { to: "/", icon: <FiHome />, label: "Contact" },      
+        { to: "/about", icon: <FiHome />, label: "About" },
+        { to: "/projects", icon: <FiHome />, label: "Projects" },
+        { to: "/skills", icon: <FiHome />, label: "Skills" },
+        { to: "/contact", icon: <FiHome />, label: "Contact" },      
     ]
     return (
         <nav className='fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-full px-6 py-3 gap-6 z-50'>
