@@ -1,5 +1,4 @@
 import { FiMail, FiPhone, FiLinkedin, FiMapPin, FiGithub } from 'react-icons/fi';
-import BottomNav from './BottomNav';
 
 const Contact = ()=> {
   return (
@@ -38,7 +37,6 @@ const Contact = ()=> {
           </div>
         </div>
       </div>
-      <BottomNav/>
     </section>
   )
 }
