@@ -13,7 +13,7 @@ const BottomNav = () => {
     ];
 
     return (
-        <nav className='fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-full px-6 py-3 gap-6 z-50'>
+        <nav className='absolute top-[75%] left-1/2 -translate-x-1/2 bg-white shadow-md rounded-full px-6 py-3 gap-6 z-50'>
             {navItems.map((item)=> {
                 <Link
                 key={item.to}
