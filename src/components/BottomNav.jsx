@@ -18,7 +18,12 @@ const BottomNav = () => {
                 <Link
                 key={item.to}
                 to={item.to}
-                className={`flex flex-col items-center`}></Link>
+                className={`flex flex-col items-center text-sm ${
+                    location.pathname === item.to ? "text-blue-600 font-bold" : "text-gray-600"
+                }`}>
+                    {item.icon}
+                    <span className='text-xs'>{item.label}</span>
+                </Link>
             })}
         </ nav>    
     );
