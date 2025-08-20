@@ -4,7 +4,7 @@ import Home from './Home.jsx';
 import Layout from './components/Layout.jsx';
 import './index.css'
 import Contact from './components/Contact.jsx';
-import HeroSection from './components/HeroSection.jsx';
+import HeroSection from './components/Home.jsx';
 import About from './components/About.jsx'
 import Projects from './components/Projects.jsx';
 import Skills from './components/Skills.jsx';
