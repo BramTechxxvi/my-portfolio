@@ -13,19 +13,20 @@ const BottomNav = () => {
     ];
 
     return (
-        <nav className='absolute top-[75%] left-1/2 -translate-x-1/2 bg-white shadow-md rounded-full px-6 py-3 gap-6 z-50'>
-            {navItems.map((item)=> {
+    <nav className='fixed bottom-20 left-1/2 -translate-x-1/2 flex flex-row bg-white shadow-md rounded-full px-16 py-4 gap-10 z-50 min-w-[420px]'>
+            {navItems.map((item) => (
                 <Link
-                key={item.to}
-                to={item.to}
-                className={`flex flex-col items-center text-sm ${
-                    location.pathname === item.to ? "text-blue-600 font-bold" : "text-gray-600"
-                }`}>
+                    key={item.to}
+                    to={item.to}
+                    className={`flex flex-col items-center text-base font-bold transition-colors duration-200 ${
+                        location.pathname === item.to ? "text-blue-600" : "text-gray-700 hover:text-blue-500"
+                    }`}
+                >
                     {item.icon}
-                    <span className='text-xs'>{item.label}</span>
+                    <span className='text-sm mt-1'>{item.label}</span>
                 </Link>
-            })}
-        </ nav>    
+            ))}
+        </nav>
     );
 };
 
