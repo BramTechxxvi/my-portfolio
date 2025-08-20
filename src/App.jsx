@@ -3,6 +3,7 @@ import Home from './Home.jsx';
 import Layout from './components/Layout.jsx';
 import './index.css'
 import Contact from './components/Contact.jsx';
+import HeroSection from './components/HeroSection.jsx';
 
   function App() {
     return (
@@ -10,10 +11,14 @@ import Contact from './components/Contact.jsx';
         <Routes>
 
           <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/contact" element={<Contact /> } />
+
+          <Route index element={<HeroSection />} />
+
+          <Route path='about' element={<About />}/>
+          <Route path='projects' element={<Projects/>}></>
+
           </Route>
-          
+
         </Routes>
       </Router>
     );
