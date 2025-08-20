@@ -18,10 +18,6 @@ function App() {
 
   <Route index element={<Home />} />
 
-        <Route path='about' element={<About />} />
-        <Route path='projects' element={<Projects/>} />
-        <Route path='skills' element={<Skills/>} />
-        <Route path='contact' element={<Contact/>} />
 
         <Route path="*" element={<h1 className="text-center mt-20 text-2xl">Page Not Found</h1>} />
 
