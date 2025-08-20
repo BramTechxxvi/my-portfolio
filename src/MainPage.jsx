@@ -10,7 +10,7 @@ import BottomNav from './components/BottomNav.jsx';
 const MainPage = () => (
   <div className="flex flex-col min-h-screen w-full">
     <Header />
-    <main className="flex-1 w-full">
+  <main className="flex-1 w-full pb-24">
       <section id="hero"><HeroSection /></section>
       <section id="about"><About /></section>
       <section id="projects"><Projects /></section>
