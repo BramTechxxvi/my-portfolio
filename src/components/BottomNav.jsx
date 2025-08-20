@@ -13,13 +13,13 @@ const BottomNav = () => {
     ];
 
     return (
-    <nav className='fixed bottom-20 left-1/2 -translate-x-1/2 flex flex-row bg-white shadow-md rounded-full px-16 py-4 gap-10 z-50 min-w-[420px]'>
+    <nav className='fixed bottom-20 left-1/2 -translate-x-1/2 flex flex-row bg-gray-800 shadow-md rounded-full px-16 py-4 gap-10 z-50 min-w-[420px]'>
             {navItems.map((item) => (
                 <Link
                     key={item.to}
                     to={item.to}
                     className={`flex flex-col items-center text-base font-bold transition-colors duration-200 ${
-                        location.pathname === item.to ? "text-blue-600" : "text-gray-700 hover:text-blue-500"
+                        location.pathname === item.to ? "text-blue-400" : "text-gray-300 hover:text-blue-300"
                     }`}
                 >
                     {item.icon}

@@ -10,7 +10,7 @@ const Layout = () => {
   return (
     <>
     <Header isHome={isHome} />
-  <main className="relative min-h-screen pb-32">
+  <main className="relative min-h-screen pb-32 bg-gray-900">
         <Outlet />
         <BottomNav />
     </main>
