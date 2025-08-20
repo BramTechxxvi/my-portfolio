@@ -18,7 +18,7 @@ const scrollToSection = (e, to) => {
 
 const BottomNav = () => {
     return (
-    <nav className='fixed bottom-0 left-1/2 -translate-x-1/2 flex flex-row bg-gray-800 shadow-md rounded-full px-4 sm:px-8 py-3 gap-6 sm:gap-10 z-50 w-full max-w-xl'>
+    <nav className='fixed bottom-0 left-1/2 -translate-x-1/2 mx-auto flex flex-row bg-gray-800 shadow-md rounded-full px-4 sm:px-8 py-3 gap-4 sm:gap-8 z-50 max-w-xl'>
             {navItems.map((item) => (
                 <a
                     key={item.to}
