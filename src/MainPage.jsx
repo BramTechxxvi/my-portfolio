@@ -19,5 +19,5 @@ const MainPage = () => (
     <BottomNav />
   </div>
 );
-
+j
 export default MainPage;
