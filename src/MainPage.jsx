@@ -17,8 +17,7 @@ const MainPage = () => (
       <section id="skills"><Skills /></section>
       <section id="contact"><Contact /></section>
     </main>
-    <Footer />
-    <BottomNav />
+  <Footer />
   </div>
 );
 export default MainPage;
