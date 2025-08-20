@@ -4,6 +4,10 @@ import Layout from './components/Layout.jsx';
 import './index.css'
 import Contact from './components/Contact.jsx';
 import HeroSection from './components/HeroSection.jsx';
+import About from './components/About.jsx'
+import Projects from './components/Projects.jsx';
+import Skills from './components/Skills.jsx';
+
 
   function App() {
     return (
