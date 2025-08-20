@@ -19,6 +19,7 @@ import HeroSection from './components/HeroSection.jsx';
           <Route path='skills' element={<Skills/>} />
           <Route path='contact' element={<Contact/>} />
 
+          <Route path="*" element={<h1 className="text-center mt-20 text-2xl">Page Not Found</h1>} />
 
           </Route>
 
