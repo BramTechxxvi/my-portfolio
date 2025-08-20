@@ -9,12 +9,12 @@ const Layout = () => {
 
   return (
     <>
-    <Header isHome={isHome} />
+  <Header isHome={isHome} />
   <main className="relative min-h-screen pb-32 bg-gray-900">
-        <Outlet />
-        <BottomNav />
-    </main>
-    <Footer isHome={isHome} />
+    <Outlet />
+  </main>
+  <Footer isHome={isHome} />
+  <BottomNav />
     </>
   )
 }
