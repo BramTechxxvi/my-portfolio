@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './MainPage.jsx';
 import './index.css';
 
-function App() {
+const App = ()=> {
   return (
     <Router>
       <Routes>
