@@ -20,7 +20,7 @@
   --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
 
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
-  --animate-meteor: fade-in 5s linear infinite;
+  --animate-meteor: meteor 5s linear infinite;
 }
 
 @layer utilities {
@@ -32,6 +32,12 @@
     background: white;
     animation: blink 1s steps(2, start) infinite;
     margin-left: 2px;
+  }
+
+  @keyframes float {
+    0%, 
+    100% {transform: translateY(0); }
+    50% { transform: translateY(-10%); }
   }
 
   @keyframes blink {
