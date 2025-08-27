@@ -8,6 +8,7 @@ const ThemeToggle = () => {
         if(isDarkMode) {
             setIsDarkMode(false);
         } else {
+            document.documentElement.classList.add('dark');
             setIsDarkMode(true);
         }
     };
