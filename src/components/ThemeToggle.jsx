@@ -1,5 +1,5 @@
-import {useState} from 'react';
-import {Sun, Moon } from "lucide-react";
+import {useState} from 'react'; '4.2k (gripped: 1.8k)'
+import {Sun, Moon } from "lucide-react"; '2k (gripped: 1.8k)'
 
 const ThemeToggle = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -7,8 +7,11 @@ const ThemeToggle = () => {
     const toggleTheme = () => {
         if(isDarkMode) {
             setIsDarkMode(false);
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("theme", "light");
         } else {
             document.documentElement.classList.add('dark');
+            localStorage.setItem("theme", "dark");
             setIsDarkMode(true);
         }
     };
