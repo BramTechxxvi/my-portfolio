@@ -62,11 +62,23 @@
 }
 
 @layer base {
-  *, 
-  *::before, 
-  *::after {
-    border-color: var(--color-border);
-    box-sizing: border-box;
+  :root {
+    --border: 214 32% 91%;
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --primary: 250 47% 60%;
+    --primary-foreground: 210 40% 98% ;
+    --card: 0 0% 100%;
+  }
+   
+  .dark {
+    --background: 222 47% 4%;
+    --foreground: 213 31% 91%;
+    --card: 222 47% 8%;
+    --primary: 250 65% 65%;
+    --primary-foreground: 213 31% 91%;
+    --border: 217 33% 28%;
+
   }
 
   body {
@@ -94,43 +106,5 @@
     cursor: pointer;
     border: none;
     background: none;
-  }
-}
-
-@layer utilities {
-  .animate-cursor::after {
-    content: '';
-    display: inline-block;
-    width: 2px;
-    height: 1.2em;
-    background: white;
-    animation: blink 1s steps(2, start) infinite;
-    margin-left: 2px;
-  }
-
- 
-
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-  }
-
-
-
-  .animate-wave {
-    animation: wave 2s infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-  }
-
-  @keyframes wave {
-    0% { transform: rotate(0deg); }
-    10% { transform: rotate(14deg); }
-    20% { transform: rotate(-8deg); }
-    30% { transform: rotate(14deg); }
-    40% { transform: rotate(-4deg); }
-    50% { transform: rotate(10deg); }
-    60% { transform: rotate(0deg); }
-    100% { transform: rotate(0deg); }
   }
 }
