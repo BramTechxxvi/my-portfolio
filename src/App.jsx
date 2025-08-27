@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainPage from './MainPage.jsx';
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import './index.css';
 
 const App = ()=> {
@@ -8,11 +9,11 @@ const App = ()=> {
       <Routes>
 
         <Route index element={<Home />} />
-        <Route path="*" element={<h1 className="text-center mt-20 text-2xl">Page Not Found</h1>} />
+        <Route path="*" element={<} />
       
       </Routes>
     </Router>
   );
 }
 
-export default App;
+export default App
