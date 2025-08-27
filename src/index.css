@@ -113,5 +113,7 @@
 }
 
 @utility gradient-border {
-  @apply rela
+  @apply relative rounded-md;
+  background: linear-gradient(to right, hsl(--var(--card)), :hsl(--var(--card)));
+
 }
