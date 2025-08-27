@@ -9,7 +9,7 @@ const App = ()=> {
       <Routes>
 
         <Route index element={<Home />} />
-        <Route path="*" element={<} />
+        <Route path="*" element={<NotFound />} />
       
       </Routes>
     </Router>
