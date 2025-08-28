@@ -47,7 +47,9 @@ const StarBackground = () => {
   return (
     <div className='fixed inset-0 oveflow-hidden pointer-events-none z-0'>
         {stars.map(star => (
-            <div key={star.id} className='star animate-pulse-subtle' style={{
+            <div key={star.id} 
+            className='star animate-pulse-subtle' 
+            style={{
                 width: `${star.size}px`,
                 height: `${star.size}px`,
                 top: `${star.y}%`,
@@ -58,13 +60,15 @@ const StarBackground = () => {
         ))}
 
         {meteors.map(meteor => (
-            <div key={star.id} className='star animate-pulse-subtle' style={{
-                width: `${star.size}px`,
-                height: `${star.size}px`,
-                top: `${star.y}%`,
-                left: `${star.x}%`,
-                opacity: star.opacity,
-                animationDuration: `${star.animationDuration}s`,
+            <div key={meteor.id} 
+            className='meteor animate-meteor' 
+            style={{
+                width: `${meteor.size}px`,
+                height: `${meteor.size}px`,
+                top: `${meteor.y}%`,
+                left: `${meteor.x}%`,
+                opacity: meteor.opacity,
+                animationDuration: `${meteor.animationDuration}s`,
             }}  />
         ))}
     </div>
