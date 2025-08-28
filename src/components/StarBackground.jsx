@@ -41,4 +41,4 @@ const StarBackground = () => {
 
 }
 
-export { StarBackground }
+export default StarBackground;
