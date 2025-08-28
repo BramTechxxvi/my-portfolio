@@ -1,5 +1,5 @@
-import {useEffect, useState} from 'react'; '4.2k (gripped: 1.8k)'
-import {Sun, Moon } from "lucide-react"; '2k (gripped: 1.8k)'
+import {useEffect, useState} from 'react'; '4.2k (gzipped: 1.8k)'
+import {Sun, Moon } from "lucide-react"; '2k (gzipped: 1.8k)'
 import cn from '../lib/utils'; 
 
 const ThemeToggle = () => {
