@@ -38,7 +38,6 @@ const StarBackground = () => {
         ))}
     </div>
   )
-
 }
 
 export default StarBackground;
