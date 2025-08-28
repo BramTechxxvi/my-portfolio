@@ -9,7 +9,7 @@ const StarBackground = () => {
 
     const generateStars = () => {
         const numberOfStars = Math.floor(
-            {window.innerWidth * window.innerHeight} / 10000
+            (window.innerWidth * window.innerHeight) / 10000
         );
         const newStars = [];
         for (let i = 0; i < numberOfStars; i++) {
@@ -25,7 +25,22 @@ const StarBackground = () => {
         setStars(newStars);
     };
   return (
-    <div>StarBackground</div>
+    <div className='fixed inset-0 oveflow-hidden pointer-events-none z-0'>
+        {stars.map(star => (
+            <div
+                key={star.id}
+                className='absolute bg-white rounded-full animate-twinkle'
+                style={{
+                    width: `${star.size}px`,
+                    height: `${star.size}px`,
+                    top: `${star.y}%`,
+                    left: `${star.x}%`,
+                    opacity: star.opacity,
+                    animationDuration: `${star.animationDuration}s`,
+                }}
+            ></div>
+        ))}
+    </div>
   )
 
 }
