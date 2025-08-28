@@ -71,7 +71,7 @@ const StarBackground = () => {
             <div key={meteor.id} 
             className='meteor animate-meteor' 
             style={{
-                width: `${meteor.size * 30 }px`,
+                width: `${meteor.size * 35 }px`,
                 height: `${meteor.size * 2 }px`,
                 top: `${meteor.y}%`,
                 left: `${meteor.x}%`,
