@@ -27,18 +27,14 @@ const StarBackground = () => {
   return (
     <div className='fixed inset-0 oveflow-hidden pointer-events-none z-0'>
         {stars.map(star => (
-            <div
-                key={star.id}
-                className='absolute bg-white rounded-full animate-twinkle'
-                style={{
-                    width: `${star.size}px`,
-                    height: `${star.size}px`,
-                    top: `${star.y}%`,
-                    left: `${star.x}%`,
-                    opacity: star.opacity,
-                    animationDuration: `${star.animationDuration}s`,
-                }}
-            ></div>
+            <div key={star.id} className='star animate-pulse-subtle' style={{
+                width: `${star.size}px`,
+                height: `${star.size}px`,
+                top: `${star.y}%`,
+                left: `${star.x}%`,
+                opacity: star.opacity,
+                animationDuration: `${star.animationDuration}s`,
+            }}  />
         ))}
     </div>
   )
