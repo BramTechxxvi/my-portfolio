@@ -52,9 +52,10 @@ const AboutSection = ()=> {
                                 </div>
 
                                 <div className="text-left">
-                                    <h4 className="text-semibold-text-lg">Web Development</h4>  
+                                    <h4 className="font-semibold-text-lg">Web Development</h4>  
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with modern frameworks
+                                        Creating responsive websites and web applications with 
+                                        modern frameworks.
                                     </p>
                                 </div>
                             </div>
@@ -65,6 +66,12 @@ const AboutSection = ()=> {
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
                                 <User className="h-6 w-6 text-primary"/>
+                                <div className="text-left">
+                                    <h4 className="font-semibold-text-lg">UI/UX Designer</h4>  
+                                    <p className="text-muted-foreground">
+                                        Designing intuitive user interfaces and seamless user experiences
+                                    </p>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -73,6 +80,13 @@ const AboutSection = ()=> {
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
                                 <Briefcase className="h-6 w-6 text-primary"/>
+                                <div className="text-left">
+                                    <h4 className="font-semibold-text-lg">Web Development</h4>  
+                                    <p className="text-muted-foreground">
+                                        Creating responsive websites and web applications with 
+                                        modern frameworks.
+                                    </p>
+                                </div>
                                 </div>
                             </div>
                         </div>
