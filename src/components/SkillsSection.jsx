@@ -18,11 +18,12 @@ const skills = [
   {name: "HTML/CSS", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"}
+  {name: "HTML/CSS", level: 82, category: "backend"},
+  
   {name: "HTML/CSS", level: 82, category: "backend"}
 ]
 
-export const SkillsSection = () => {
+const SkillsSection = () => {
   return ()
 }
 
