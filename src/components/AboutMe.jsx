@@ -9,8 +9,8 @@ const AboutMe = ()=> {
                     About <span className="text-primary"></span>
                 </h2>
 
-                <div>
-                    
+                <div className="grid grid-cols-1 md:grid">
+
                 </div>
             </div>
         </section>
