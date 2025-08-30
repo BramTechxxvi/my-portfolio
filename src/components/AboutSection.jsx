@@ -1,3 +1,5 @@
+import { Briefcase, Code, User } from "lucide-react"
+
 const AboutSection = ()=> {
     return (
         <section
@@ -46,7 +48,14 @@ const AboutSection = ()=> {
                         <div className=" gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary"/>
+                                    <Code className="h-6 w-6 text-primary"/>
+                                </div>
+
+                                <div className="text-left">
+                                    <h4 className="text-semibold-text-lg">Web Development</h4>  
+                                    <p className="text-muted-foreground">
+                                        Creating responsive websites and web applications with modern frameworks
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +64,7 @@ const AboutSection = ()=> {
                         <div className=" gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary"/>
+                                <User className="h-6 w-6 text-primary"/>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +72,7 @@ const AboutSection = ()=> {
                         <div className=" gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary"/>
+                                <Briefcase className="h-6 w-6 text-primary"/>
                                 </div>
                             </div>
                         </div>
