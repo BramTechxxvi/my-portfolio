@@ -7,13 +7,22 @@ const navItems = [
     {name: 'Projects', href: '#projects'},
     {name: 'Contact', href: '#contact'},
 
-]
+];
 
 const NavBar = () => {
-  return (
-    <div>
+    const [isScrolled, setIsScrolled];
+
+    useEffect(()=> {
+        const handleScroll= ()=> {
+            
+        }
+    })
+    return (
+    <nav className={cn("fixed w-full z-40 transition-all duration-300")}>
         NavBar
 
-    </div>
+    </nav>
   )
 }
+
+export default NavBar;
