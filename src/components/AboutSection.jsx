@@ -91,14 +91,11 @@ const AboutSection = ()=> {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-
-
         </section>
-    )
-}
+    );
+};
 
 export default AboutSection
