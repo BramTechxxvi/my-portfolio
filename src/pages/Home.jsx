@@ -10,6 +10,7 @@ const Home = () => {
         <NavBar />
         <main>
           <HeroSection />
+          <AboutSection />
         </main>
     </div>
   )
