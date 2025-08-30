@@ -1,4 +1,5 @@
-import { useState } from 'react'   
+import { useEffect, useState } from 'react'   
+import cn from '../lib/utils'
 
 const navItems = [
     {name: 'Home', href: '#hero'},
@@ -11,7 +12,7 @@ const navItems = [
 
 const NavBar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isMenuOpen, setMenuOpen] = useState(false);
+    const [isMenuOpen, setMenuOpen] = useState(true);
 
 
     useEffect(()=> {
