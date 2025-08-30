@@ -45,7 +45,9 @@ const NavBar = () => {
             </div>
 
             <div className={cn(
-                ""
+                "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+                "transition-all duration-300 md:hidden",
+                
                 )}>
                 <div className='hidden md:flex space-x-8'>
                     {navItems.map((item, key)=> (
