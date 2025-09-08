@@ -1,8 +1,7 @@
 import {useState} from 'react'
-import { SiBackendless } from 'react-icons/si';
+import cn from '../lib/utils';
 
 const skills = [
-
   //Frontend
   {name: "HTML/CSS", level: 82, category: "frontend"},
   {name: "JavaScript", level: 95, category: "frontend"},
@@ -49,8 +48,14 @@ const SkillsSection = () => {
       {categories.map((category, index) => (
         <button
         key={index}
-        className="px-5 py-2 rounded-full tra $">
-          activeCategory === category
+        onClick={() => setActiveCategorty(category)}
+        className={cn(
+          "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+          activeCategory === category : "bg-primary text-primary-foreground" ? "bg-card text-foreground hover:bg-primary/1"
+        )}
+        >
+          activeCategory === categorysition
+        </button>
     </div>
 
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
