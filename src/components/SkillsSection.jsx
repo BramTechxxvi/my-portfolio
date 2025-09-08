@@ -11,17 +11,22 @@ const skills = [
 
   //BackEnd
   {name: "Java", level: 82, category: "backend"},
-  {name: "Pyhton", level: 82, category: "backend"},
+  {name: "Python", level: 82, category: "backend"},
   {name: "Node.js", level: 82, category: "backend"},
+  {name: "Go", level: 82, category: "backend"},
+  {name: "", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
+ 
   
-  {name: "HTML/CSS", level: 82, category: "backend"}
+  // Tools
+  {name: "MongoDB", level: 82, category: "backend"},
+  {name: "MySQL", level: 82, category: "backend"},
+  {name: "PostgresQL", level: 82, category: "backend"},
+  {name: "Docker", level: 82, category: "backend"},
+  {name: "Git", level: 82, category: "backend"},
+  {name: "GitHub", level: 82, category: "backend"},
+
 ]
 
 const SkillsSection = () => {
