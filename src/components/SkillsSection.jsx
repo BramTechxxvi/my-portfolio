@@ -51,10 +51,12 @@ const SkillsSection = () => {
         onClick={() => setActiveCategorty(category)}
         className={cn(
           "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-          activeCategory === category : "bg-primary text-primary-foreground" ? "bg-card text-foreground hover:bg-primary/1"
+          activeCategory === category 
+          ? "bg-primary text-primary-foreground" 
+          : "bg-seondary/70 text-foreground hover:bd-secondary"
         )}
         >
-          activeCategory === categorysition
+          {category}
         </button>
     </div>
 
