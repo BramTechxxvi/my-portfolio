@@ -30,7 +30,7 @@ const Skills = () => {
         <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {skills.map((group) => (
-            <div key={group.category} className="bg-gray-800 rounded-xl shadow p-6 flex flex-col items-center">
+           <div key={group.category} className="bg-gray-800 rounded-xl shadow p-6 flex flex-col items-center">
               <div className="mb-2">{group.icon}</div>
               <h3 className="font-semibold text-lg mb-3">{group.category}</h3>
               <ul className="flex flex-wrap gap-2 justify-center">
