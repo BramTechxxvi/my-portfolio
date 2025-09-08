@@ -52,7 +52,9 @@ const SkillsSection = () => {
           </div>
 
           <div className='w-full bg-secondary/50 rounded-full h-2 overflow-hidden'>
-            <div className='bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out' />
+            <div 
+            className='bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out' 
+            style={{ width: skills.level + "%" }}/>
           </div>
         </div>
       ))}
