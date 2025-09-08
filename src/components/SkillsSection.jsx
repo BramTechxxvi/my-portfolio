@@ -35,6 +35,9 @@ const categories = ["all", "frontend", "backend", "tools % technologies"];
 const SkillsSection = () => {
   const [activeCategory, setActiveCategorty] = useState("all");
 
+  const filteredSkills = skills.filter((skill) =>
+    activeCategory === "all" || skill.category === activeCategory
+);
   return (
   <section id="skills" 
   className='py-24 px-4 relative bg-secondary/30'> 
