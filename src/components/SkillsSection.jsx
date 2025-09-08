@@ -1,17 +1,18 @@
 import React from 'react'
 
 const skills = [
+  //Frontend
   {name: "HTML/CSS", level: 82, category: "frontend"},
   {name: "JavaScript", level: 95, category: "frontend"},
-  {name: "React", level: 92, category: "frontend"},
+  {name: "React.js", level: 92, category: "frontend"},
   {name: "TypeScript", level: 89, category: "frontend"},
   {name: "Tailwind CSS", level: 87, category: "frontend"},
   {name: "Next.js", level: 91, category: "frontend"},
 
-
+  //BackEnd
   {name: "Java", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
+  {name: "Pyhton", level: 82, category: "backend"},
+  {name: "Node.js", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
   {name: "HTML/CSS", level: 82, category: "backend"},
