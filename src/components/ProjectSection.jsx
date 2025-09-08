@@ -1,10 +1,16 @@
 import React from 'react'
 
+
+const projects = [
+    {
+        
+    }
+]
 const ProjectSection = () => {
   return (
-    <div>
+    <section>
         ProjectSection
-    </div>
+    </section>
   )
 }
 
