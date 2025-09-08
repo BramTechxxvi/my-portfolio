@@ -1,8 +1,10 @@
 import React from 'react'
 
-export const ProjectSection = () => {
+const ProjectSection = () => {
   return (
-    <div>ProjectSection</div>
+    <div>
+        ProjectSection
+    </div>
   )
 }
 
