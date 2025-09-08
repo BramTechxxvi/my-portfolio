@@ -61,10 +61,11 @@ const SkillsSection = () => {
         >
           {category}
         </button>
+      ))}
     </div>
 
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-      {skills.map((skill, index) => (
+      {filteredSkills.map((skill, index) => (
         <div
         key={index} 
         className="bg-card p-6 rounded-lg shadow-xs card-hover">
