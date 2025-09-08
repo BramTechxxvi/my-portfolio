@@ -42,7 +42,19 @@ const SkillsSection = () => {
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
       {skills.map((skill, index) => (
         <div
-        key={index} className="bg-card p-6 rounded-lg shadow-xs card-hover"></div>
+        key={index} 
+        className="bg-card p-6 rounded-lg shadow-xs card-hover">
+
+          <div className='text-left mb-4'>
+            <h3 className='text-lg font-semibold mb-2'>
+              {skill.name}
+            </h3>
+          </div>
+
+          <div className='w-full bg-secondary/50 rounded-full h-2 overflow-hidden'>
+            <div className='bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out' />
+          </div>
+        </div>
       ))}
     </div>
 
