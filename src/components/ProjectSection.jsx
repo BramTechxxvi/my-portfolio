@@ -11,14 +11,14 @@ const projects = [
     },
     {
         id: 2,
-        title: "Project One",
+        title: "Project Two",
         description: "A brief description of Project One.",
         imageUrl: "https://via.placeholder.com/300",
         githubUrl: "#"
     },
     {
-        id: 3update,
-        title: "Project One",
+        id: 3,
+        title: "Project Three",
         description: "A brief description of Project One.",
         imageUrl: "https://via.placeholder.com/300",
         githubUrl: "#"
