@@ -131,13 +131,20 @@ const ContactSection = () => {
                         </label>
 
                         <textarea 
-]                        id="message" 
+                        id="message" 
                         name="message"  
                         required
                         className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary resize-none'
-                        placeholder='Ibrahim Ibrahim...'
+                        placeholder="Hello, I'd like to talk about..."
                         />
                     </div>
+
+                    <button
+                    type="submit"
+                    className=''
+                    >
+
+                    </button>
                 </form>
             </div>
         </div>
