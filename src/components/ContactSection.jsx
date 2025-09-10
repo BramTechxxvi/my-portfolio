@@ -107,32 +107,31 @@ const ContactSection = () => {
                     </div>
 
                     <div>
-                        <label htmlFor="name"
+                        <label htmlFor="email"
                         className='block text-sm font-medium mb-2'>
                             {" "} 
-                            Your Name
+                            Your Email
                         </label>
 
                         <input 
-                        type="text" 
-                        id="name" 
-                        name="name"  
+                        type="email" 
+                        id="email" 
+                        name="email"  
                         required
                         className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary'
-                        placeholder='Ibrahim Ibrahim...'
+                        placeholder='123@example.com'
                         />
                     </div>
 
                     <div>
-                        <label htmlFor="name"
+                        <label htmlFor="message"
                         className='block text-sm font-medium mb-2'>
                             {" "} 
-                            Your Name
+                            Your Message
                         </label>
 
-                        <input 
-                        type="text" 
-                        id="name" 
+                        <textarea 
+]                        id="message" 
                         name="name"  
                         required
                         className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary'
