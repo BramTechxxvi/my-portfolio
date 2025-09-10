@@ -4,12 +4,12 @@ import cn from '../lib/utils'
 
 const ContactSection = () => {
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
 
-        setTimeout(() => {
-        }, 1500);
-    }
+    //     setTimeout(() => {
+    //     }, 1500);
+    // }
   return (
     <section 
     id="contact" 
