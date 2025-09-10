@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram} from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram } from 'lucide-react'
 
 const ContactSection = () => {
   return (
@@ -88,9 +88,48 @@ const ContactSection = () => {
                     <h3 className='text-2xl font-semibold mb-6'>Send a Message</h3>
                 </div>
 
-                <form className='space-y-6' action="">
+                <form className='space-y-6'>
                     <div>
-                        <label htmlFor="name"> Your Name</label>
+                        <label htmlFor="name"
+                        className='block text-sm font-medium mb-2'>
+                            {" "} 
+                            Your Name
+                        </label>
+
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name"  
+                        required
+                        className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary'
+                        placeholder='Ibrahim Ibrahim...'
+                        />
+                    </div>
+
+                    <div>
+                        <label htmlFor="name"
+                        className='block text-sm font-medium mb-2'>
+                            {" "} 
+                            Your Name
+                        </label>
+
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name"  
+                        required
+                        className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary'
+                        placeholder='Ibrahim Ibrahim...'
+                        />
+                    </div>
+
+                    <div>
+                        <label htmlFor="name"
+                        className='block text-sm font-medium mb-2'>
+                            {" "} 
+                            Your Name
+                        </label>
+
                         <input 
                         type="text" 
                         id="name" 
