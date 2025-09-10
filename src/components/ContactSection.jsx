@@ -25,6 +25,13 @@ const ContactSection = () => {
                             <div className='p-3 rounded-full bg-primary/10'>
                                 <Mail className="h-6 w-6 text-primary" />{" "}
                             </div>
+
+                            <div>
+                                <h4 className='font-medium'> Email</h4>
+                                <a href="mailto:bramtechxxvi@gmail.com"
+                                className='text-muted-foreground hover:text-primary transition-colors duration-300'
+                                ></a>
+                            </div>
                         </div>
                     </div>
                 </div>
