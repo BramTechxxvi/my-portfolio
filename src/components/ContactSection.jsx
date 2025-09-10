@@ -143,7 +143,7 @@ const ContactSection = () => {
 
                     <button
                     type="submit"
-                    className=''
+                    className={cn("cosmic-button w-full flex justify-center items-center",)}
                     >
 
                     </button>
