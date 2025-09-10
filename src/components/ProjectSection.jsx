@@ -72,11 +72,6 @@ const ProjectSection = () => {
 
                         <div className='flex justify-between items-center'>
                             <div className='flex space-x-3'>
-                                <a href={project.liveUrl}
-                                target='_blank'
-                                className='text-foreground/80 hover:text-primary transition-colors duration-300'>
-                                    <ExternalLink />
-                                </a>
                                 <a href={project.githubUrl} 
                                 target="_blank"
                                 className='text-foreground/80 hover:text-primary transition-colors duration-300'>
