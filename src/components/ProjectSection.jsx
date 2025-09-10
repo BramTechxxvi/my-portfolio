@@ -90,7 +90,9 @@ const ProjectSection = () => {
             </div>
 
             <div className='text-center mt-12'>
-                <a href="cosmic-button">
+                <a className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                target='_blank'
+                href="https://github.com/BramTechxxvi">
                     Check My Github <ArrowRight size={16}/>
                 </a>
 
