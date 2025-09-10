@@ -1,4 +1,6 @@
 import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram } from 'lucide-react'
+import cn from '../lib/utils'
+
 
 const ContactSection = () => {
   return (
