@@ -6,7 +6,7 @@ const projects = [
         id: 1,
         title: "Project One",
         description: "A brief description of Project One.",
-        imageUrl: "/projects/todoapp.",
+        imageUrl: "/projects/todoapp.png",
         tags: ["springboot", "react", "tailwind"],
         githubUrl: "#"
     },
