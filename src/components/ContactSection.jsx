@@ -1,5 +1,4 @@
-import { Instagram, Linkedin } from 'lucide-react'
-import React from 'react'
+import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram} from 'lucide-react'
 
 const ContactSection = () => {
   return (
