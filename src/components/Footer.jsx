@@ -1,8 +1,9 @@
 
+
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-gray-200 text-center px-8 py-5 sm:px-12 sm:py-7">
-            <p>&copy; {new Date().getFullYear()} Ibrahim Ibrahim</p>
+        <footer className="w-full bg-background text-foreground text-center px-4 py-6 border-t border-border">
+            <p className="text-sm tracking-wide">&copy; {new Date().getFullYear()} Ibrahim Ibrahim</p>
         </footer>
     );
 }
