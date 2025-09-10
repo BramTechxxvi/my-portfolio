@@ -90,7 +90,17 @@ const ContactSection = () => {
                 </div>
 
                 <form className='space-y-6' action="">
-                    <div></div>
+                    <div>
+                        <label htmlFor="name"> Your Name</label>
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name"  
+                        required
+                        className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary'
+                        placeholder='Ibrahim Ibrahim...'
+                        />
+                    </div>
                 </form>
             </div>
         </div>
