@@ -37,6 +37,20 @@ const ContactSection = () => {
                         </div>
                          <div className='flex items-center space-x-4'>
                             <div className='p-3 rounded-full bg-primary/10'>
+                                <Phone className="h-6 w-6 text-primary" />{" "}
+                            </div>
+
+                            <div>
+                                <h4 className='font-medium'> Phone</h4>
+                                <a href="tel:+2347015366234"
+                                className='text-muted-foreground hover:text-primary transition-colors'
+                                >
+                                    +234 701 536 6324
+                                </a>
+                            </div>
+                        </div>
+                         <div className='flex items-center space-x-4'>
+                            <div className='p-3 rounded-full bg-primary/10'>
                                 <Mail className="h-6 w-6 text-primary" />{" "}
                             </div>
 
