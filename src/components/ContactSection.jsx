@@ -74,7 +74,7 @@ const ContactSection = () => {
                             <a href="linkedin.com/in/ibrahim-ibrahim-1001b333a" target='_blank'>
                                 <Linkedin />
                             </a>
-                            <a href="#" target='_blank'>
+                            <a href="https://github.com/BramTechxxvi" target='_blank'>
                                 <Github />
                             </a>
                             <a href="#" target='_blank'>
