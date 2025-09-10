@@ -1,3 +1,4 @@
+import { Instagram, Linkedin } from 'lucide-react'
 import React from 'react'
 
 const ContactSection = () => {
@@ -51,21 +52,39 @@ const ContactSection = () => {
                         </div>
                          <div className='flex items-center space-x-4'>
                             <div className='p-3 rounded-full bg-primary/10'>
-                                <Mail className="h-6 w-6 text-primary" />{" "}
+                                <MapPin className="h-6 w-6 text-primary" />{" "}
                             </div>
 
                             <div>
-                                <h4 className='font-medium'> Email</h4>
-                                <a href="mailto:bramtechxxvi@gmail.com"
+                                <h4 className='font-medium'> Location</h4>
+                                <a 
                                 className='text-muted-foreground hover:text-primary transition-colors'
                                 >
-                                    bramtechxxvi@gmail.com
+                                    Lagos, Nigeria.
                                 </a>
                             </div>
                         </div>
+                    </div>
 
+                    <div className='pt-8'>
+                        <h4 className='font-medium mb-4'>Connect With Me</h4>
+                        <div className="flex space-x-4 justify-center">
+                            <a href="#" target='_blank'>
+                                <Linkedin />
+                            </a>
+                            <a href="#" target='_blank'>
+                                <Github />
+                            </a>
+                            <a href="#" target='_blank'>
+                                <Twitter />
+                            </a>
+                            <a href="#" target='_blank'>
+                                <Instagram />
+                            </a>
+                        </div>
                     </div>
                 </div>
+                div
             </div>
         </div>
 
