@@ -29,8 +29,10 @@ const ContactSection = () => {
                             <div>
                                 <h4 className='font-medium'> Email</h4>
                                 <a href="mailto:bramtechxxvi@gmail.com"
-                                className='text-muted-foreground hover:text-primary transition-colors duration-300'
-                                ></a>
+                                className='text-muted-foreground hover:text-primary transition-colors'
+                                >
+                                    bramtechxxvi@gmail.com
+                                </a>
                             </div>
                         </div>
                     </div>
