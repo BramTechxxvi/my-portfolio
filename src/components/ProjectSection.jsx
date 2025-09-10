@@ -22,7 +22,7 @@ const projects = [
         id: 3,
         title: "Project Three",
         description: "A brief description of Project One.",
-        imageUrl: "https://via.placeholder.com/300",
+        imageUrl: ".../public/projects/betconverter.png",
         tags: ["springboot", "react", "tailwind"],
         githubUrl: "#"
     }
