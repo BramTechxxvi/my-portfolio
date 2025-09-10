@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Instagram, Send } from 'lucide-react'
 import cn from '../lib/utils'
 
 
@@ -147,6 +147,7 @@ const ContactSection = () => {
 
                     )}
                     >
+                        Send Message
                         <Send size={16} className="mr-2" />
 
                     </button>
