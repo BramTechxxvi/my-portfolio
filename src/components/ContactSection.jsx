@@ -4,6 +4,10 @@ import cn from '../lib/utils'
 
 const ContactSection = () => {
 
+    const formRef = useRef();
+    const [loading, setLoading] = useState(false);
+    const [status, setStatus] = useState("");
+
   return (
     <section 
     id="contact" 
