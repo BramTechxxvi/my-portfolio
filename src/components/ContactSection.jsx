@@ -10,6 +10,19 @@ const ContactSection = () => {
     const [loading, setLoading] = useState(false);
     const [status, setStatus] = useState("");
 
+    const sendEmail = (e)=> {
+        e.preventDefault();
+        setLoading(true);
+
+        emailjs
+        .sendForm(
+            
+        )
+    }
+
+
+
+
   return (
     <section 
     id="contact" 
