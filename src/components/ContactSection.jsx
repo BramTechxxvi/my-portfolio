@@ -177,11 +177,13 @@ const ContactSection = () => {
 
                     <button
                     type="submit"
-                    className={cn("cosmic-button w-full flex justify-center items-center gap-2",
-
+                    disabled={loading}
+                    className={cn(
+                        "cosmic-button w-full flex justify-center items-center gap-2",
+                        loading ? "opacity-50 cursor-not-allowed" : ""
                     )}
                     >
-                        Send Message
+                        {loading ? "Sending..." : "Send Message"}
                         <Send size={16} className="mr-2" />
 
                     </button>
