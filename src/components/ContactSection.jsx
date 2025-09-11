@@ -27,9 +27,12 @@ const ContactSection = () => {
             formRef.current.reset();
         },
         (error) => {
+            setStatus("❌ Failed to send message. Try again.");
+            console.error(error);
+            setLoading(false);
         }
     );
-    }
+}
 
 
 
