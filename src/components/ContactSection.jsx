@@ -16,8 +16,19 @@ const ContactSection = () => {
 
         emailjs
         .sendForm(
-            
+            "YOUR_SERVICE_ID",
+            "YOUR_TEMPLATE_ID",
+            formRef.current,
+            "YOUR_PUBLIC_KEY"
         )
+        .then(() => {
+            setStatus("✅ Message sent successfully!");
+            setLoading(false);
+            formRef.current.reset();
+        },
+        (error) => {
+        }
+    );
     }
 
 
