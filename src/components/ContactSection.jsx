@@ -185,12 +185,15 @@ const ContactSection = () => {
                     >
                         {loading ? "Sending..." : "Send Message"}
                         <Send size={16} className="mr-2" />
-
                     </button>
+
+                    {status && (
+                        <p className='text_center mt-4 text-sm text-muted-foreground'>
+                            {status}
+                        </p>
+                    )}
                 </form>
                 </div>
-
-        
             </div>
         </div>
 
