@@ -141,7 +141,6 @@ const ContactSection = () => {
                             {" "} 
                             Your Email
                         </label>
-
                         <input 
                         type="email" 
                         id="email" 
@@ -158,7 +157,6 @@ const ContactSection = () => {
                             {" "} 
                             Your Message
                         </label>
-
                         <textarea 
                         id="message" 
                         name="message"  
