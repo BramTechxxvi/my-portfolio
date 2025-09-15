@@ -17,24 +17,21 @@ const ContactSection = () => {
         emailjs
         .sendForm(
             import.meta.env.VITE.EMAILJS.SERVICE_ID,
-            "YOUR_TEMPLATE_ID",
+            import.meta.env.VITE.EMAILJS.TEMPLATE_ID,
             formRef.current,
-            "YOUR_PUBLIC_KEY"
+            import.meta.env.VITE.EMAILJS.PUBLIC_KEY
         )
         .then(() => {
             setStatus("✅ Message sent successfully!");
             setLoading(false);
             formRef.current.reset();
-        },
-        (error) => {
+        })
+        .catch((error) => {
             setStatus("❌ Failed to send message. Try again.");
             console.error(error);
             setLoading(false);
-        }
-    );
-}
-
-
+        });
+    };
 
 
   return (
