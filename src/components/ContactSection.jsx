@@ -108,9 +108,6 @@ const ContactSection = () => {
                             <a href="#" target='_blank'>
                                 <Twitter />
                             </a>
-                            <a href="#" target='_blank'>
-                                <Instagram />
-                            </a>
                         </div>
                     </div>
                 </div>
