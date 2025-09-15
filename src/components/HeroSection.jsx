@@ -24,9 +24,8 @@ const HeroSection = () => {
                         Backend/Software Engineer
                     </div>
                     <p className='text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse architecto possimus voluptatem 
-                        maxime quis quaerat exercitationem dolores ab iure! Magni sit necessitatibus dolores dolore 
-                        corporis enim quo quia eligendi rerum.
+                        I help businesses bring their ideas to life by building robust backend systems with clean architecture, 
+                        efficient data handling, crafting efficient API's and ensuring applications scale smoothly as they grow.
                     </p>
                     <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
                         <a href="#projects" className='cosmic-button'>
