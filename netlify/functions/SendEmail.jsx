@@ -9,6 +9,7 @@ export async function handler(event, context) {
     }
 
     try{
-        const { name, email, message } = JSON.stringify(event.body)
+        const { name, email, message } = JSON.stringify(event.body);
+        const resend = 
     }
 }
