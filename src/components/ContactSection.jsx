@@ -16,7 +16,7 @@ const ContactSection = () => {
 
         emailjs
         .sendForm(
-            "YOUR_SERVICE_ID",
+            import.meta.env.VITE.EMAILJS.SERVICE_ID,
             "YOUR_TEMPLATE_ID",
             formRef.current,
             "YOUR_PUBLIC_KEY"
