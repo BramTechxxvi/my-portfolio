@@ -1,30 +1,33 @@
-const sendEmail = async (e) => {
-  e.preventDefault();
-  setLoading(true);
+import { Resend } from "resend";
 
-  try {
-    const res = await fetch("http://localhost:8000/send-email/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: e.target.name.value,
-        email: e.target.email.value,
-        message: e.target.message.value,
-      }),
-    });
-
-    const data = await res.json();
-    if (res.ok) {
-      setStatus("✅ Message sent successfully!");
-      formRef.current.reset();
-    } else {
-      setStatus("❌ Failed: " + data.error);
-    }
-  } catch (err) {
-    setStatus("❌ Network error. Try again.");
+export async function handler(event, context) {
+  if (event.httpMethod !== "POST") {
+    return {
+      statusCode: 405,
+      body: JSON.stringify({ error: "Method not allowed" }),
+    };
   }
 
-  setLoading(false);
-};
+  try {
+    const { name, email, message } = JSON.parse(event.body);
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
+    await resend.emails.send({
+      from: "Your Name <onboarding@resend.dev>", // must be verified domain/sender
+      to: "your_email@example.com", // your inbox
+      subject: `New message from ${name}`,
+      text: `From: ${name} (${email})\n\n${message}`,
+    });
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ success: true, message: "Email sent!" }),
+    };
+  } catch (error) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ success: false, error: error.message }),
+    };
+  }
+}
