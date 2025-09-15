@@ -15,7 +15,7 @@ export async function handler(event, context) {
 
     await resend.emails.send({
       from: "Your Name <onboarding@resend.dev>", // must be verified domain/sender
-      to: "your_email@example.com", // your inbox
+      to: "ibrahim.ib.babs21@gmail.com", // your inbox
       subject: `New message from ${name}`,
       text: `From: ${name} (${email})\n\n${message}`,
     });
