@@ -105,9 +105,6 @@ const ContactSection = () => {
                             <a href="https://github.com/BramTechxxvi" target='_blank'>
                                 <Github />
                             </a>
-                            <a href="#" target='_blank'>
-                                <Twitter />
-                            </a>
                         </div>
                     </div>
                 </div>
