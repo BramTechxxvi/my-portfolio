@@ -15,10 +15,10 @@ const ContactSection = () => {
 
         emailjs
         .sendForm(
-            import.meta.env.VITE.EMAILJS.SERVICE_ID,
-            import.meta.env.VITE.EMAILJS.TEMPLATE_ID,
+            import.meta.env.VITE.EMAILJS_SERVICE_ID,
+            import.meta.env.VITE.EMAILJS_TEMPLATE_ID,
             formRef.current,
-            import.meta.env.VITE.EMAILJS.PUBLIC_KEY
+            import.meta.env.VITE.EMAILJS_PUBLIC_KEY
         )
         .then(() => {
             setStatus("✅ Message sent successfully!");
