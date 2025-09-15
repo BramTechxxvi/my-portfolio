@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-export async function handler(event, context) {
+export async function handler(event) {
   if (event.httpMethod !== "POST") {
     return {
       statusCode: 405,
@@ -14,8 +14,8 @@ export async function handler(event, context) {
     const resend = new Resend(process.env.RESEND_API_KEY);
 
     await resend.emails.send({
-      from: "Your Name <onboarding@resend.dev>", // must be verified domain/sender
-      to: "ibrahim.ib.babs21@gmail.com", // your inbox
+      from: "Your Name <onboarding@resend.dev>", // later replace with your own verified domain email
+      to: "ibrahim.ib.babs21@gmail.com",
       subject: `New message from ${name}`,
       text: `From: ${name} (${email})\n\n${message}`,
     });
