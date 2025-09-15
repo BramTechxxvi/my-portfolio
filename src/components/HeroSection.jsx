@@ -37,7 +37,7 @@ const HeroSection = () => {
                 {/* Image Section */}
                 <div className="flex-1 flex justify-center md:justify-end items-center">
                     <img 
-                        src="/that.png" 
+                        src="/usage.JPG" 
                         alt="Ibrahim" 
                         className="w-48 h-48 md:w-72 md:h-72 object-cover rounded-full shadow-lg opacity-0 animate-fade-in-delay-2" 
                     />
