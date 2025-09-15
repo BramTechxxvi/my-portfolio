@@ -14,7 +14,7 @@ const AboutSection = ()=> {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Backend Engineer Web Beveloper & Tech Creator
+                            Backend Engineer & Problem Solver
                         </h3>
 
                         <p 
@@ -52,10 +52,10 @@ const AboutSection = ()=> {
                                 </div>
 
                                 <div className="text-left">
-                                    <h4 className="font-semibold-text-lg">Web Development</h4>  
+                                    <h4 className="font-semibold-text-lg">API Development</h4>  
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with 
-                                        modern frameworks.
+                                        Designing and maintaining scalable RESTful APIs 
+                                        for web and mobile applications.
                                     </p>
                                 </div>
                             </div>
