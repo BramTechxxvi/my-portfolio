@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-export async function handler(event, context) {
+export async function handler(event) {
     if(event.httpMethod !== "POST") {
         return {
             statusCode: 405,
