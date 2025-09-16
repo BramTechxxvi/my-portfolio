@@ -3,22 +3,25 @@ import cn from "../lib/utils";
 // Define skills grouped by category
 const skillsData = {
   "Programming Languages": [
-    { name: "JavaScript", level: 95 },
-    { name: "TypeScript", level: 89 },
-    { name: "Java", level: 82 },
-    { name: "Python", level: 82 },
+    { name: "Java", level: 91 },
+    { name: "JavaScript", level: 82 },
+    { name: "TypeScript", level: 80 },
+    { name: "Python", level: 85 },
     { name: "Go", level: 80 },
   ],
   "Backend Frameworks": [
+    { name: "Spring Boot", level: 90 },
     { name: "Node.js", level: 85 },
     { name: "Express.js", level: 83 },
-    { name: "Next.js", level: 91 },
-    { name: "Spring Boot", level: 80 },
+    { name: "Django", level: 87 },
+    { name: "RESTful API's", level: 87 },
+
   ],
   Databases: [
     { name: "MongoDB", level: 82 },
-    { name: "MySQL", level: 82 },
+    { name: "MySQL", level: 85 },
     { name: "PostgreSQL", level: 80 },
+    { name: "Redis", level: 75 },
   ],
   "Cloud & DevOps": [
     { name: "Docker", level: 82 },

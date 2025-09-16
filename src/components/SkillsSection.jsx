@@ -2,57 +2,7 @@ import {useState} from 'react'
 import cn from '../lib/utils';
 
 
-const categories = ["all", "frontend", "backend", "tools % technologies"];
-
-const SkillsSection = () => {
-
-    const [activeCategory, setActiveCategorty] = useState("all");
-
-    return (
-      <section>
-
-      </section>
-    )
-
-
-}
-
-  return (
-  <section id="skills" 
-  className='py-24 px-4 relative bg-secondary/30'> 
-
-  <div className="container mx-auto max-w-5xl">
-    <h2 className='text-3xl md:text-4xl font-bold mb-12 text-center'>
-      My <span className="text-primary"> Skills</span>
-    </h2>
-
-    <div className='flex flex-wrap justify-center mb-12 gap-4'>
-      {categories.map((category, index) => (
-        <button
-        key={index}
-        onClick={() => setActiveCategorty(category)}
-        className={cn(
-          "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-          activeCategory === category 
-
-          const skillsGroups = [
-            {
-              group: "Programming Languages",
-              skills: [
-                { name: "JavaScript", level: 95 },
-                { name: "TypeScript", level: 89 },
-                { name: "Python", level: 82 },
-                { name: "Java", level: 82 },
-                { name: "Go", level: 82 },
-              ]
-            },
-            {
-              group: "Backend Frameworks",
-              skills: [
-                { name: "Node.js", level: 82 },
-                { name: "Express.js", level: 80 },
-                { name: "Django", level: 78 },
-
+      
                 const skillsGroups = [
                   {
                     group: "Programming Languages",
@@ -138,6 +88,6 @@ const SkillsSection = () => {
                       </div>
                     </section>
                   );
-                }};
+                };
 
                 export default SkillsSection;
