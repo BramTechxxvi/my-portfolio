@@ -1,6 +1,18 @@
-import cn from '../lib/utils';
 
 const SkillsSection = () => {
+  const skillsData = {
+    "Programming Languages": [
+      { name: "Java", level: 91 },
+      { name: "JavaScript", level: 82 },
+      { name: "TypeScript", level: 80 },
+      { name: "Python", level: 85 },
+      { name: "Go", level: 80 },
+    ],
+
+    "Backend Frameworks": [
+      {}
+    ],
+  }
 
   return (
     <section id="skills" 
@@ -9,11 +21,8 @@ const SkillsSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My <span className="text-primary">Skills</span>
         </h2>
-
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Object.entries(skillsData).map(([category, skills]) => (
-
             <div
             key={category}
             className='bg-card p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow'
@@ -39,9 +48,7 @@ const SkillsSection = () => {
                   </div> 
                 ))}
               </div>
-
             </div>
-
           ))}
         </div>
       </div>
