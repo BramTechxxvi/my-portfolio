@@ -73,13 +73,13 @@ const SkillsSection = () => {
           My <span className="text-primary">Skills</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.entries(skillsData).map(([category, skills]) => (
+          {Object.entries(skillsData).map(([category, { icon, skills}]) => (
             <div
             key={category}
             className='bg-card p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow'
             >
               <h3 className='text-xl font-semibold mb-4 text-primary'>
-                {category}
+                {icon} {category}
               </h3>
 
               <div className='space-y-4'>
