@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import SkillsSection from "../components/SkillsSection"
+import ExperienceSection from "../components/ExperienceSection";
 import ProjectSection from "../components/ProjectSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
@@ -16,6 +17,7 @@ const Home = () => {
           <HeroSection />
           <AboutSection />
           <SkillsSection />
+          <ExperienceSection />
           <ProjectSection />
           <ContactSection />
           <Footer />
