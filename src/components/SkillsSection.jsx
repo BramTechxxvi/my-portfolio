@@ -45,19 +45,24 @@ const SkillsSection = () => {
       ],
     },
   
-    "Security & Auth": [
-      { name: "JWT Authentication", level: 80 },
-      { name: "API Security", level: 78 },
-      { name: "Basic Auth", level: 75 },
-    ],
-  }
+    "Security & Auth": {
+      icon: <ShieldCheck className="inline-block mr-2 text-primary" size={22} />,
+      skills: [
+        { name: "JWT Authentication", level: 80 },
+        { name: "API Security", level: 78 },
+        { name: "Basic Auth", level: 75 },
+      ]
+    },
   
-    "Testing & Tools": [
-      { name: "Jest", level: 82 },
-      { name: "JUnit", level: 79 },
-      { name: "Postman", level: 88 },
-      { name: "PyTest", level: 81 },
-    ],
+    "Testing & Tools": {
+      icon: <FlaskConical className="inline-block mr-2 text-primary" size={22} />,
+      skills: [
+        { name: "Jest", level: 82 },
+        { name: "JUnit", level: 79 },
+        { name: "Postman", level: 88 },
+        { name: "PyTest", level: 81 },
+      ],
+    }
   }
 
   return (
