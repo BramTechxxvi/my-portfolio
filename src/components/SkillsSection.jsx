@@ -22,7 +22,29 @@ const SkillsSection = () => {
       { name: "MySQL", level: 85 },
       { name: "PostgreSQL", level: 80 },
       { name: "Redis", level: 75 },
-    ]
+    ],
+
+    
+    "Cloud & DevOps": [
+      { name: "Docker", level: 82 },
+      { name: "Git", level: 85 },
+      { name: "GitHub", level: 85 },
+      { name: "CI/CD", level: 78 },
+      { name: "AWS", level: 70 },
+    ],
+  
+    "Security & Auth": [
+      { name: "JWT Authentication", level: 80 },
+      { name: "API Security", level: 78 },
+      { name: "Basic Auth", level: 75 },
+    ],
+  
+    "Testing & Tools": [
+      { name: "Jest", level: 82 },
+      { name: "JUnit", level: 79 },
+      { name: "Postman", level: 88 },
+      { name: "PyTest", level: 81 },
+    ],
   }
 
   return (
