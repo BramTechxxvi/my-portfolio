@@ -1,4 +1,8 @@
-import React from '''
+import React from 'lucide-react';
+
+const experiences = [
+    
+]
 
 const ExperienceSection = () => {
   return (
