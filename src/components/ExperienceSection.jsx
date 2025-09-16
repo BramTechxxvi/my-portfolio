@@ -34,7 +34,12 @@ const ExperienceSection = () => {
                         </div>
 
                         <h3 className='text-xl font-semibold'>{exp.title}</h3>
-                        ))}
+                        <p className='text-muted-foreground text-sm mb-2'>
+                            {exp.institution} • {exp.year}
+                        </p>
+                    </div>    
+                ))}
+            </div>
         </div>
     </section>
   )
