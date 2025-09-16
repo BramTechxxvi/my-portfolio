@@ -60,7 +60,8 @@ const SkillsSection = () => {
               key={category}
               className="bg-card p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
-              <h3 className="text-xl font-semibold mb-4 text-primary">
+              <h3 
+              className="text-xl font-semibold mb-4 text-primary">
                 {category}
               </h3>
 
@@ -73,6 +74,7 @@ const SkillsSection = () => {
                         {skill.level}%
                       </span>
                     </div>
+                    
                     <div className="w-full bg-secondary/50 rounded-full h-2 overflow-hidden">
                       <div
                         className="bg-primary h-2 rounded-full"
