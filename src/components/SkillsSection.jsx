@@ -10,8 +10,19 @@ const SkillsSection = () => {
     ],
 
     "Backend Frameworks": [
-      {}
+      { name: "Spring boot", level: 90},
+      { name: "Node.js", level: 85},
+      { name: "Express.js", level: 83},
+      { name: "Django", level: 87},
+      { name: "RESTful API's"},
     ],
+
+    "Databases": [
+      { name: "MongoDB", level: 82 },
+      { name: "MySQL", level: 85 },
+      { name: "PostgreSQL", level: 80 },
+    { 
+    ]
   }
 
   return (
