@@ -1,34 +1,6 @@
 import {useState} from 'react'
 import cn from '../lib/utils';
 
-const skills = [
-  //Frontend
-  {name: "HTML/CSS", level: 82, category: "frontend"},
-  {name: "JavaScript", level: 95, category: "frontend"},
-  {name: "React.js", level: 92, category: "frontend"},
-  {name: "TypeScript", level: 89, category: "frontend"},
-  {name: "Tailwind CSS", level: 87, category: "frontend"},
-  {name: "Next.js", level: 91, category: "frontend"},
-
-  //BackEnd
-  {name: "Java", level: 82, category: "backend"},
-  {name: "Python", level: 82, category: "backend"},
-  {name: "Node.js", level: 82, category: "backend"},
-  {name: "Go", level: 82, category: "backend"},
-  {name: "", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
-  {name: "HTML/CSS", level: 82, category: "backend"},
- 
-  
-  // Tools
-  {name: "MongoDB", level: 82, category: "backend"},
-  {name: "MySQL", level: 82, category: "backend"},
-  {name: "PostgresQL", level: 82, category: "backend"},
-  {name: "Docker", level: 82, category: "backend"},
-  {name: "Git", level: 82, category: "backend"},
-  {name: "GitHub", level: 82, category: "backend"},
-
-]
 
 const categories = ["all", "frontend", "backend", "tools % technologies"];
 
@@ -38,7 +10,7 @@ const SkillsSection = () => {
 
     return (
       <section>
-        
+
       </section>
     )
 
