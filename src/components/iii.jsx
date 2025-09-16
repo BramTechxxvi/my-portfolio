@@ -19,7 +19,8 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-24 px-4 bg-secondary/30 relative">
+    <section id="experience" 
+    className="py-24 px-4 bg-secondary/30 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My <span className="text-primary">Experience</span>
@@ -29,7 +30,8 @@ const ExperienceSection = () => {
           {experiences.map((exp, index) => (
             <div key={index} className="relative">
               {/* Icon */}
-              <div className="absolute -left-3.5 top-1 w-7 h-7 rounded-full bg-primary flex items-center justify-center text-primary-foreground shadow-md">
+              <div 
+              className="absolute -left-3.5 top-1 w-7 h-7 rounded-full bg-primary flex items-center justify-center text-primary-foreground shadow-md">
                 <Briefcase size={16} />
               </div>
 
