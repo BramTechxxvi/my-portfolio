@@ -1,22 +1,4 @@
-import cn from "../lib/utils";
 
-// Define skills grouped by category
-const skillsData = {
-  "Programming Languages": [
-    { name: "Java", level: 91 },
-    { name: "JavaScript", level: 82 },
-    { name: "TypeScript", level: 80 },
-    { name: "Python", level: 85 },
-    { name: "Go", level: 80 },
-  ],
-
-  "Backend Frameworks": [
-    { name: "Spring Boot", level: 90 },
-    { name: "Node.js", level: 85 },
-    { name: "Express.js", level: 83 },
-    { name: "Django", level: 87 },
-    { name: "RESTful API's", level: 87 },
-  ],
 
   "Databases": [
     { name: "MongoDB", level: 82 },
@@ -74,7 +56,7 @@ const SkillsSection = () => {
                         {skill.level}%
                       </span>
                     </div>
-                    
+
                     <div className="w-full bg-secondary/50 rounded-full h-2 overflow-hidden">
                       <div
                         className="bg-primary h-2 rounded-full"

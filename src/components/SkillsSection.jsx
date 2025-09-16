@@ -21,7 +21,7 @@ const SkillsSection = () => {
       { name: "MongoDB", level: 82 },
       { name: "MySQL", level: 85 },
       { name: "PostgreSQL", level: 80 },
-    { 
+      { name: "Redis", level: 75 },
     ]
   }
 
