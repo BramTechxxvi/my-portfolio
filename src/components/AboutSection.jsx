@@ -26,10 +26,9 @@ const AboutSection = ()=> {
                         </p>
 
                         <p className="text-muted-foreground">
-                            I'm pessionate about creating elegant solutions to complex
-                            problems, and I'm constantly learning new technlogies 
-                            and  techniques to stay at the forefront of the ever-existng 
-                            web landscape
+                            I enjoy solving complex problems with clean and efficient solutions, 
+                            and I’m constantly learning new tools and technologies to stay ahead 
+                            in the ever-evolving software engineering landscape.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -49,7 +48,7 @@ const AboutSection = ()=> {
                         <div className=" gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary"/>
+                                    <Server className="h-6 w-6 text-primary"/>
                                 </div>
 
                                 <div className="text-left">
