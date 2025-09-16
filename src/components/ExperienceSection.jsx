@@ -1,7 +1,12 @@
 import React from 'react'
 
-export const ExperienceSection = () => {
+const ExperienceSection = () => {
   return (
-    <div>ExperienceSection</div>
+    <section
+    id="experience">
+        ExperienceSection
+    </section>
   )
 }
+
+export default ExperienceSection;
