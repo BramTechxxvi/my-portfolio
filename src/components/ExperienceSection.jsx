@@ -1,5 +1,4 @@
-import { Description } from '@radix-ui/react-toast';
-import React from 'lucide-react';
+import { Briefcase, Cloud } from "lucide-react";
 
 const experiences = [
     {
