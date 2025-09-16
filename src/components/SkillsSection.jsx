@@ -1,8 +1,10 @@
 import cn from '../lib/utils';
 
 const SkillsSection = () => {
-  
+
 }
+
+export default SkillsSection;
 
 
       
