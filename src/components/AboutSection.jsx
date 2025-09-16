@@ -19,9 +19,9 @@ const AboutSection = ()=> {
 
                         <p 
                         className="text-muted-foreground">
-                            With over 5 years of experience in web developent, 
-                            I specialize in creating responsive, accessible, and 
-                            performant web applicatons using modern technologies.
+                            I'm a backemd engineer passionate about building scalable,
+                            secure, and high-performing systems. My expertise lies in designing 
+                            RESTful APIs, working with relational and nin-realtional databases    
                         </p>
 
                         <p className="text-muted-foreground">
