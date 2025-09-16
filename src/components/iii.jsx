@@ -3,7 +3,8 @@ import { Code, Server, Database, Cloud, ShieldCheck, FlaskConical } from "lucide
 const SkillsSection = () => {
   const skillsData = {
     "Programming Languages": {
-      icon: <Code className="inline-block mr-2 text-primary" size={22} />,
+      icon: <Code 
+      className="inline-block mr-2 text-primary" size={22} />,
       skills: [
         { name: "Java", level: 91 },
         { name: "JavaScript", level: 82 },
