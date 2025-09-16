@@ -9,36 +9,39 @@ const skillsData = {
     { name: "Python", level: 85 },
     { name: "Go", level: 80 },
   ],
+
   "Backend Frameworks": [
     { name: "Spring Boot", level: 90 },
     { name: "Node.js", level: 85 },
     { name: "Express.js", level: 83 },
     { name: "Django", level: 87 },
     { name: "RESTful API's", level: 87 },
-
   ],
-  Databases: [
+
+  "Databases": [
     { name: "MongoDB", level: 82 },
     { name: "MySQL", level: 85 },
     { name: "PostgreSQL", level: 80 },
     { name: "Redis", level: 75 },
   ],
+
   "Cloud & DevOps": [
     { name: "Docker", level: 82 },
     { name: "Git", level: 85 },
     { name: "GitHub", level: 85 },
-    { name: "CI/CD (GitHub Actions)", level: 78 },
+    { name: "CI/CD", level: 78 },
+    { name: "AWS", level: 70 },
   ],
   "Security & Auth": [
-    { name: "JWT", level: 80 },
-    { name: "OAuth 2.0", level: 78 },
+    { name: "JWT Authentication", level: 80 },
+    { name: "API Security", level: 78 },
     { name: "Basic Auth", level: 75 },
   ],
   "Testing & Tools": [
     { name: "Jest", level: 82 },
-    { name: "Mocha/Chai", level: 79 },
+    { name: "JUnit", level: 79 },
     { name: "Postman", level: 88 },
-    { name: "Cypress", level: 81 },
+    { name: "PyTest", level: 81 },
   ],
 };
 
