@@ -1,13 +1,10 @@
+import { Code, Server, Database, Cloud, ShieldCheck, FlaskConical } from "lucide-react";
 
 const SkillsSection = () => {
   const skillsData = {
-    "Programming Languages": [
-      { name: "Java", level: 91 },
-      { name: "JavaScript", level: 82 },
-      { name: "TypeScript", level: 80 },
-      { name: "Python", level: 85 },
-      { name: "Go", level: 80 },
-    ],
+    "Programming Languages": {
+      icon: <Code />
+    },
 
     "Backend Frameworks": [
       { name: "Spring boot", level: 90},
