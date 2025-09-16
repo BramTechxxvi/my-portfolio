@@ -20,7 +20,7 @@ const SkillsSection = () => {
         { name: "Node.js", level: 85},
         { name: "Express.js", level: 83},
         { name: "Django", level: 87},
-        { name: "RESTful API's"},
+        { name: "RESTful API's", level: 89},
       ],
     },
 
