@@ -21,7 +21,8 @@ const AboutSection = ()=> {
                         className="text-muted-foreground">
                             I'm a backemd engineer passionate about building scalable,
                             secure, and high-performing systems. My expertise lies in designing 
-                            RESTful APIs, working with relational and nin-realtional databases    
+                            RESTful APIs, working with relational and nin-realtional databases,
+                            and optimizing backend architectures to support modern technologies.    
                         </p>
 
                         <p className="text-muted-foreground">
