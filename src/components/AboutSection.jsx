@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react"
+import { Briefcase, Database, Server } from "lucide-react"
 
 const AboutSection = ()=> {
     return (
