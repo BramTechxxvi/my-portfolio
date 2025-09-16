@@ -65,13 +65,13 @@ const AboutSection = ()=> {
                         <div className=" gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4"> 
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary"/>
+                                    <Database className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold-text-lg">UI/UX Designer</h4>  
+                                    <h4 className="font-semibold-text-lg">Database Management</h4>  
                                     <p className="text-muted-foreground">
-                                        Designing intuitive user interfaces and seamless user 
-                                        experiences.
+                                        Skilled in SQL and NoSQL databases, ensuring data is structured, 
+                                        optimized, and secure.
                                     </p>
                                 </div>
                             </div>
