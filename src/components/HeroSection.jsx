@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <section 
             id="hero"
-            className="relative min-h-screen flex flex-col items-center justify-center px-4">
+            className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-24">
             <div className="container max-w-6xl mx-auto z-10 flex flex-col md:flex-row items-center justify-between gap-8">
                 {/* Text Section */}
                 <div className="flex-1 text-center md:text-left space-y-6">
