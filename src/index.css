@@ -82,7 +82,9 @@
     @apply border-border;
   }
   html {
-    @apply scroll-smooth;  
+    @apply scroll-smooth;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
   }
   body {
     @apply bg-background text-foreground transition-colors duration-300;
