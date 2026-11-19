@@ -1,5 +1,18 @@
 import { Briefcase, Database, Server } from "lucide-react"
 
+const CV_URL = "/IBRAHIM_resume.pdf";
+
+const handleCvClick = () => {
+    window.open(CV_URL, "_blank", "noopener,noreferrer");
+
+    const link = document.createElement("a");
+    link.href = CV_URL;
+    link.download = "IBRAHIM_resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
 const AboutSection = ()=> {
     return (
         <section
@@ -37,10 +50,13 @@ const AboutSection = ()=> {
                                 Get In Touch
                             </a>
 
-                            <a href="/IBRAHIM_resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                                {" "}
+                            <button
+                                type="button"
+                                onClick={handleCvClick}
+                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                            >
                                 Download CV
-                            </a>
+                            </button>
                         </div>
                     </div>
 
